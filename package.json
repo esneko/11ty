@@ -1,0 +1,25 @@
+{
+  "name": "11ty",
+  "version": "1.0.0",
+  "description": "11ty powered by React",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite _site",
+    "build": "eleventy",
+    "dev": "eleventy --watch --incremental"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "eslint": "^8.31.0",
+    "eslint-plugin-react": "^7.31.11",
+    "require-from-string": "^2.0.2",
+    "vite": "^4.0.4"
+  }
+}
