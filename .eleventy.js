@@ -40,7 +40,7 @@ module.exports = function (eleventyConfig) {
     return `
         <div id="${componentRootId}">${html}</div>
         <script type="module">
-          import Component from './${componentPath}';
+          import Component from '/${componentPath}';
           import React from 'react';
           import ReactDOM from 'react-dom';
           const componentRoot = document.getElementById('${componentRootId}');

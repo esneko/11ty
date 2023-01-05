@@ -8,6 +8,7 @@ const Header = () => (
       <li>11ty</li>
       <li>Vite</li>
       <li>React</li>
+      <li>Prisma</li>
     </ol>
   </>
 )

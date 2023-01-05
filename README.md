@@ -1,4 +1,4 @@
-#### 11ty powered by React
+## 11ty powered by React
 
 Jamstack:
 - Static templates SSG-d by 11ty
