@@ -5,6 +5,7 @@ const React = require('react')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.ignores.add('*.md')
+  eleventyConfig.addPassthroughCopy('_data/**')
   eleventyConfig.addPassthroughCopy('assets/**')
   eleventyConfig.addPassthroughCopy('components/**')
 
@@ -40,11 +41,11 @@ module.exports = function (eleventyConfig) {
     return `
         <div id="${componentRootId}">${html}</div>
         <script type="module">
-          import Component from '/${componentPath}';
-          import React from 'react';
-          import ReactDOM from 'react-dom';
-          const componentRoot = document.getElementById('${componentRootId}');
-          ReactDOM.hydrate(React.createElement(Component), componentRoot);
+          import Component${id} from '/${componentPath}'
+          import React from 'react'
+          import { hydrateRoot } from 'react-dom/client'
+          const componentRoot${id} = document.getElementById('${componentRootId}')
+          hydrateRoot(componentRoot${id}, React.createElement(Component${id}))
         </script>
       `
   })
