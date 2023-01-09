@@ -1,10 +1,11 @@
-import * as React from 'react'
+import { useState } from 'react'
 
-export const Cart = ({ start = 0, currency = 'EUR' }) => {
-  const [sum, inc] = React.useState(start)
+export const Cart = ({ total = 0 }) => {
+  const [sum, inc] = useState(total)
   return (
     <>
-      Total: {sum} {currency}
+      Total: {sum}
+      &nbsp;&euro;
       <br />
       <button onClick={() => inc((s) => s + 1)}>INC</button>
     </>
