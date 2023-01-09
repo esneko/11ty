@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
     return `
         <div id="${componentRootId}">${html}</div>
         <script type="module">
-          import Component${id} from '/${componentPath.replace('.tsx', '.js')}'
+          import Component${id} from '${componentPath.replace('.tsx', '.js')}'
           import React from 'react'
           import { hydrateRoot } from 'react-dom/client'
           const componentRoot${id} = document.getElementById('${componentRootId}')
