@@ -4,7 +4,7 @@
   "description": "Jamstack powered by React",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy & tsc",
+    "build": "eleventy & vite build",
     "dev": "eleventy --watch --incremental"
   },
   "keywords": [],
