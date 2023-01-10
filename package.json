@@ -1,7 +1,7 @@
 {
   "name": "11ty",
   "version": "1.0.0",
-  "description": "11ty powered by React",
+  "description": "Jamstack powered by React",
   "main": "index.js",
   "scripts": {
     "build": "eleventy & tsc",
