@@ -3,11 +3,11 @@
     "title": "Work 1",
     "pictures": [
       {
-        "src": "/assets/images/01.avif",
+        "src": "assets/images/01.avif",
         "alt": "Test 1"
       },
       {
-        "src": "/assets/images/02.avif",
+        "src": "assets/images/02.avif",
         "alt": "Test 2"
       }
     ]
@@ -16,11 +16,11 @@
     "title": "Work 2",
     "pictures": [
       {
-        "src": "/assets/images/03.avif",
+        "src": "assets/images/03.avif",
         "alt": "Test 3"
       },
       {
-        "src": "/assets/images/04.avif",
+        "src": "assets/images/04.avif",
         "alt": "Test 4"
       }
     ]
