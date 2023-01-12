@@ -5,7 +5,6 @@ export const Cart = ({ total = 0 }) => {
   return (
     <>
       Total: {sum}
-      &nbsp;&euro;
       <br />
       <button onClick={() => inc((s) => s + 1)}>INC</button>
     </>

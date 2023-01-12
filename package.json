@@ -9,10 +9,10 @@
     "lint": "eslint --fix **/*.{ts,tsx}"
   },
   "keywords": [
-    "jamstack",
     "react",
-    "SSR",
-    "SSG"
+    "hydration",
+    "streaming",
+    "jamstack"
   ],
   "author": "esneko",
   "license": "ISC",

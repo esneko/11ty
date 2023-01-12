@@ -3,7 +3,7 @@ import { Cart } from './Cart.js'
 
 const Gallery = () => (
   <>
-    <h1>Gallery</h1>
+    <h2>Gallery</h2>
     <Cart total={22} />
     {works.map((work, i) => (
       <div key={`work_${i}`}>
